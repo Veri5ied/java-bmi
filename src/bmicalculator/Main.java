@@ -13,7 +13,7 @@ public class Main {
         String surName, firstName, gender, stateOfOrigin, address, phone;
         double height, weight;
 
-        System.out.println("######.......A BMI CALCULATOR BY GROUP 5........#######");
+        System.out.println("********************** A BMI CALCULATOR BY GROUP 5 **********************");
         System.out.println();
 
         //Scanner passed below is for reading input in Java programme. Values are obtained with the scanner and the java.util packages
@@ -23,11 +23,6 @@ public class Main {
         //Acceptance of users input goes below....
         System.out.println("Please enter your Surname: ");
         surName = sc.nextLine();
-        if (surName == null) {
-            System.out.println("Wrong entry, please try again");
-            surName = sc.nextLine();
-            return;
-        }
 
         System.out.println("Please enter your First Name: ");
         firstName = sc.nextLine();
